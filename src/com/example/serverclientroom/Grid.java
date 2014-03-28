@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.widget.TextView;
 
 public class Grid extends Activity {
-	
+	// We don't do much here
 	private TextView tv;
 	private Handler updateConversationHandler;
 
