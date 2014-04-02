@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class ParseData {
 	// Example String input: "Player1 move up 0",
-	// "Server spawnpowerup 23 4", "Player move down deny -1"
+	// "Server spawnpowerup 23 4", "Player2 move down -1"
 
 	private final int REQUEST = 0;
 	private final int DENY = -1;
