@@ -1,6 +1,7 @@
 package com.example.game;
 
-public class PowerUpGenerator extends Thread // run this as a separate thread from the main server
+public class PowerUpGenerator extends Thread // run this as a separate thread
+												// from the main server
 {
 	private int time;
 	private int board_size;
@@ -23,7 +24,8 @@ public class PowerUpGenerator extends Thread // run this as a separate thread fr
 
 	public void run()
 	{
-		while (!isInterrupted()) // interrupt generation when game is over / powerups are disabled
+		while (!isInterrupted()) // interrupt generation when game is over /
+									// powerups are disabled
 		{
 			try
 			{
